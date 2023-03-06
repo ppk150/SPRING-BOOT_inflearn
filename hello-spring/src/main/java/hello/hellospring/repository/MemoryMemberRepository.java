@@ -6,7 +6,7 @@ import org.springframework.stereotype.Repository;
 import java.util.*;
 
 // 리포지토리 인터페이스를 구현 하는 부분, 실직적인 로직이 들어감
-@Repository // 스프링 컨테이너에 빈 형태로 넣어준다
+//@Repository // 스프링 컨테이너에 빈 형태로 넣어준다
 public class MemoryMemberRepository implements  MemberRepository{
 
     private static Map<Long,Member> store = new HashMap<>();
